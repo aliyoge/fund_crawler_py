@@ -1,0 +1,16 @@
+[[source]]
+url = "https://mirrors.aliyun.com/pypi/simple/"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "==2.20.0"
+sqlalchemy = "==1.4.17"
+beautifulsoup4 = "==4.9.3"
+psycopg2-binary = "==2.8.6"
+lxml = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.7"
